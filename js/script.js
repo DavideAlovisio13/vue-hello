@@ -6,16 +6,25 @@ createApp({
             message: 'Vue-hello',            
                 
             arrayImg: [
+
                 {
-                    img: 'https://picsum.photos/200/300',
+                    img: 'img/pexels-cottonbro-studio-4065876.jpg',
                     alt: 'Picsum'
-                }
+                },
+
+                {
+                    img: 'img/pexels-junior-teixeira-2072060.jpg',
+                    alt: 'Picsum'
+                },
+
+                {
+                    img: 'img/pexels-roberto-nickson-7238759.jpg',
+                    alt: 'Picsum'
+                },
+
             ], 
         }
     },
-    modules() {
-
-    }
 }).mount('#app');
 
 
